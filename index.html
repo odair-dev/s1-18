@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento de Tecnologia Kenzie</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" name="nome" required="true" placeholder="Digite seu nome aqui..." ><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required="true" placeholder="Digite seu email aqui..."><br>
+
+        <label for="descricao">Descrição</label><br>
+        <textarea required="true" name="descricao" id="descricao" cols="30" rows="10" placeholder="Fale mais sobre você aqui..."></textarea><br>
+
+        <label for="modulo">Módulo</label><br>
+        <select name="modulo" id="modulo" required="true">
+            <option value="">Escolher módulo</option>
+            <option value="frontend">Front End</option>
+            <option value="backend">Back End</option>
+            <option value="fullstack">Full Stack</option>
+        </select><br>
+
+        <label for="senha">Senha</label><br>
+        <input type="password" id="senha" name="senha" required="true" placeholder="Digite sua senha aqui..."><br>
+
+        <label for="conf_senha">Senha</label><br>
+        <input type="password" id="conf_senha" name="conf_senha" required="true" placeholder="Digite sua senha novamente aqui..."><br>
+
+        <p>Deseja receber novidades em seu e-mail?</p>
+
+        <label for="novidades">Sim</label>
+        <input type="radio" name="novidades" id="sim" value="sim" required="true">
+        
+        <label for="novidades">Não</label>
+        <input type="radio" name="novidades" id="nao" value="nao" required="true"><br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
